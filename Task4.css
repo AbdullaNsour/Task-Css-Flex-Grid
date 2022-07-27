@@ -1,0 +1,59 @@
+body {
+    background-color: #A8BF7E;
+    font-size: larger;
+
+}
+
+.all {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    width: 600px;
+    height: 80vh;
+    background-color: #A0D0EA;
+    gap: 10px;
+    padding: 10px;
+    box-shadow: 0px  5px rgba(128, 128, 128, 0.307);
+    margin: auto;
+    border-radius: 5%;
+    font-size: xx-large;
+
+
+}
+
+.ResaultArea {
+    border-radius: 5px;
+    width: 100%;
+    grid-column: 1/span 4;
+    background-color: #F1FBEB;
+    box-shadow: 0px  5px rgba(128, 128, 128, 0.307);
+ 
+}
+
+.NUM {
+    display: grid;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    
+    box-shadow: 0px  5px rgba(128, 128, 128, 0.307);
+
+}
+
+.mathgreen {
+    display: grid;
+    background-color: #EFFF93;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px  5px rgba(128, 128, 128, 0.307);
+
+
+}
+
+.Del {
+    display: grid;
+    background-color: #FBA0AB;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px  5px rgba(128, 128, 128, 0.307);
+}
